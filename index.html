@@ -1,35 +1,569 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>YouTube</title>
-    <link rel="stylesheet" href="styles/styles.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <div class="header">
-        <div class="header__left">
-            <i class="material-icons">menu</i>
-            <img src="images/youtube-logo.png" alt="logo">
-        </div>
+      <div class="header__left">
+        <i class="material-icons">menu</i>
+        <img src="images/youtube-logo.png" alt="logo" />
+      </div>
 
-    <div class="header__search">
+      <div class="header__search">
         <form action="">
-            <input type="text" placeholder="Search">
-            <button><i class="material-icons">search</i></button>
+          <input type="text" placeholder="Search" />
+          <button><i class="material-icons">search</i></button>
         </form>
-    </div>
+        <button><i class="material-icons">mic</i></button>
+      </div>
 
-    <div class="header__icons">
-        <i class="material-icons">videocam</i>
-        <i class="material-icons">apps</i>
-        <i class="material-icons">notifications</i>
+      <div class="header__icons">
+        <button>
+          <i class="material-icons">add</i>
+          <span>Create</span>
+        </button>
+        <p><i class="material-icons">notifications</i><span>1</span></p>
         <i class="material-icons">account_circle</i>
+      </div>
     </div>
-</div>
 
-<!-- Header ends -->
+    <!-- Header ends -->
 
-</body>
+    <div class="main-body">
+      <!-- Sidebar starts -->
+      <div class="sidebar">
+        <div class="sidebar__categories">
+          <div class="sidebar__category">
+            <i class="material-icons">home</i>
+            <span>Home</span>
+          </div>
+          <div class="sidebar__category">
+            <i class="material-icons">local_fire_department</i>
+            <span>Trending</span>
+          </div>
+          <div class="sidebar__category">
+            <i class="material-icons">subscriptions</i>
+            <span>Subscriptions</span>
+          </div>
+        </div>
+        <hr />
+        <div class="sidebar__categories">
+          <div class="sidebar__category">
+            <i class="material-icons">library_add_check</i>
+            <span>Library</span>
+          </div>
+          <div class="sidebar__category">
+            <i class="material-icons">history</i>
+            <span>History</span>
+          </div>
+          <div class="sidebar__category">
+            <i class="material-icons">play_arrow</i>
+            <span>Your Videos</span>
+          </div>
+          <div class="sidebar__category">
+            <i class="material-icons">watch_later</i>
+            <span>Watch Later</span>
+          </div>
+          <div class="sidebar__category">
+            <i class="material-icons">thumb_up</i>
+            <span>Liked Videos</span>
+          </div>
+        </div>
+        <hr />
+      </div>
+      <!-- Sidebar ends -->
+      <div class="videos">
+        <div class="ribbon-categories">
+          <button style="background-color: #000; color: #fff;">All</button>
+          <button>Music</button>
+          <button>Javascript</button>
+          <button>Data Structures</button>
+          <button>Strings</button>
+          <button>Guitar Solos</button>
+          <button>Gaming</button>
+          <button>Study Skills</button>
+          <button>Bass drum</button>
+          <button>Mixes</button>
+          <button>Synthesizers</button>
+          <button>Colleges</button>
+          <button>AI</button>
+          <button>Playlists</button>
+          <button>Live</button>
+          <button>Indian pop music</button>
+          <button>Indian pop music</button>
+          <button>Indian pop music</button>
+          <button>Indian pop music</button>
+          <button>Indian pop music</button>
+          <button>Indian pop music</button>
+          <button>Indian pop music</button>
+        </div>
+        <div class="video__container">
+            <!-- Single video Starts -->
+             <div class="video">
+                <div class="video__thumbnail">
+                    <img src="https://i.ytimg.com/vi/ElrBbMdvo0k/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAGtp8UDxVTbmBWRus8QT-eYWPetw" alt="thumbnail">
+                </div>
+
+                <div class="video__details">
+                    <div class="author">
+                        <img src="https://yt3.ggpht.com/whxVkc_UUu47qNKYujNMSg2TVQeH_XIprkgH-5M4J9kLLKKXamEM2PEvSMpCkVqkAAE-Ayt5bw=s68-c-k-c0x00ffffff-no-rj" alt="profile-picture">
+                    </div>
+
+                    <div class="title">
+                        <h3>this is how i see NYC | a cinematic travel vlog</h3>
+                        <a href="">Patrick Arseneault</a>
+                        <span>8.5K Views • 1 year ago</span>
+                    </div>
+                </div>
+             </div>
+             <!-- Single video ends -->
+            <!-- Single video Starts -->
+             <div class="video">
+                <div class="video__thumbnail">
+                    <img src="https://i.ytimg.com/vi/ElrBbMdvo0k/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAGtp8UDxVTbmBWRus8QT-eYWPetw" alt="thumbnail">
+                </div>
+
+                <div class="video__details">
+                    <div class="author">
+                        <img src="https://yt3.ggpht.com/whxVkc_UUu47qNKYujNMSg2TVQeH_XIprkgH-5M4J9kLLKKXamEM2PEvSMpCkVqkAAE-Ayt5bw=s68-c-k-c0x00ffffff-no-rj" alt="profile-picture">
+                    </div>
+
+                    <div class="title">
+                        <h3>this is how i see NYC | a cinematic travel vlog</h3>
+                        <a href="">Patrick Arseneault</a>
+                        <span>8.5K Views • 1 year ago</span>
+                    </div>
+                </div>
+             </div>
+             <!-- Single video ends -->
+            <!-- Single video Starts -->
+             <div class="video">
+                <div class="video__thumbnail">
+                    <img src="https://i.ytimg.com/vi/ElrBbMdvo0k/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAGtp8UDxVTbmBWRus8QT-eYWPetw" alt="thumbnail">
+                </div>
+
+                <div class="video__details">
+                    <div class="author">
+                        <img src="https://yt3.ggpht.com/whxVkc_UUu47qNKYujNMSg2TVQeH_XIprkgH-5M4J9kLLKKXamEM2PEvSMpCkVqkAAE-Ayt5bw=s68-c-k-c0x00ffffff-no-rj" alt="profile-picture">
+                    </div>
+
+                    <div class="title">
+                        <h3>this is how i see NYC | a cinematic travel vlog</h3>
+                        <a href="">Patrick Arseneault</a>
+                        <span>8.5K Views • 1 year ago</span>
+                    </div>
+                </div>
+             </div>
+             <!-- Single video ends -->
+            <!-- Single video Starts -->
+             <div class="video">
+                <div class="video__thumbnail">
+                    <img src="https://i.ytimg.com/vi/ElrBbMdvo0k/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAGtp8UDxVTbmBWRus8QT-eYWPetw" alt="thumbnail">
+                </div>
+
+                <div class="video__details">
+                    <div class="author">
+                        <img src="https://yt3.ggpht.com/whxVkc_UUu47qNKYujNMSg2TVQeH_XIprkgH-5M4J9kLLKKXamEM2PEvSMpCkVqkAAE-Ayt5bw=s68-c-k-c0x00ffffff-no-rj" alt="profile-picture">
+                    </div>
+
+                    <div class="title">
+                        <h3>this is how i see NYC | a cinematic travel vlog</h3>
+                        <a href="">Patrick Arseneault</a>
+                        <span>8.5K Views • 1 year ago</span>
+                    </div>
+                </div>
+             </div>
+             <!-- Single video ends -->
+            <!-- Single video Starts -->
+             <div class="video">
+                <div class="video__thumbnail">
+                    <img src="https://i.ytimg.com/vi/ElrBbMdvo0k/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAGtp8UDxVTbmBWRus8QT-eYWPetw" alt="thumbnail">
+                </div>
+
+                <div class="video__details">
+                    <div class="author">
+                        <img src="https://yt3.ggpht.com/whxVkc_UUu47qNKYujNMSg2TVQeH_XIprkgH-5M4J9kLLKKXamEM2PEvSMpCkVqkAAE-Ayt5bw=s68-c-k-c0x00ffffff-no-rj" alt="profile-picture">
+                    </div>
+
+                    <div class="title">
+                        <h3>this is how i see NYC | a cinematic travel vlog</h3>
+                        <a href="">Patrick Arseneault</a>
+                        <span>8.5K Views • 1 year ago</span>
+                    </div>
+                </div>
+             </div>
+             <!-- Single video ends -->
+            <!-- Single video Starts -->
+             <div class="video">
+                <div class="video__thumbnail">
+                    <img src="https://i.ytimg.com/vi/ElrBbMdvo0k/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAGtp8UDxVTbmBWRus8QT-eYWPetw" alt="thumbnail">
+                </div>
+
+                <div class="video__details">
+                    <div class="author">
+                        <img src="https://yt3.ggpht.com/whxVkc_UUu47qNKYujNMSg2TVQeH_XIprkgH-5M4J9kLLKKXamEM2PEvSMpCkVqkAAE-Ayt5bw=s68-c-k-c0x00ffffff-no-rj" alt="profile-picture">
+                    </div>
+
+                    <div class="title">
+                        <h3>this is how i see NYC | a cinematic travel vlog</h3>
+                        <a href="">Patrick Arseneault</a>
+                        <span>8.5K Views • 1 year ago</span>
+                    </div>
+                </div>
+             </div>
+             <!-- Single video ends -->
+            <!-- Single video Starts -->
+             <div class="video">
+                <div class="video__thumbnail">
+                    <img src="https://i.ytimg.com/vi/ElrBbMdvo0k/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAGtp8UDxVTbmBWRus8QT-eYWPetw" alt="thumbnail">
+                </div>
+
+                <div class="video__details">
+                    <div class="author">
+                        <img src="https://yt3.ggpht.com/whxVkc_UUu47qNKYujNMSg2TVQeH_XIprkgH-5M4J9kLLKKXamEM2PEvSMpCkVqkAAE-Ayt5bw=s68-c-k-c0x00ffffff-no-rj" alt="profile-picture">
+                    </div>
+
+                    <div class="title">
+                        <h3>this is how i see NYC | a cinematic travel vlog</h3>
+                        <a href="">Patrick Arseneault</a>
+                        <span>8.5K Views • 1 year ago</span>
+                    </div>
+                </div>
+             </div>
+             <!-- Single video ends -->
+            <!-- Single video Starts -->
+             <div class="video">
+                <div class="video__thumbnail">
+                    <img src="https://i.ytimg.com/vi/ElrBbMdvo0k/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAGtp8UDxVTbmBWRus8QT-eYWPetw" alt="thumbnail">
+                </div>
+
+                <div class="video__details">
+                    <div class="author">
+                        <img src="https://yt3.ggpht.com/whxVkc_UUu47qNKYujNMSg2TVQeH_XIprkgH-5M4J9kLLKKXamEM2PEvSMpCkVqkAAE-Ayt5bw=s68-c-k-c0x00ffffff-no-rj" alt="profile-picture">
+                    </div>
+
+                    <div class="title">
+                        <h3>this is how i see NYC | a cinematic travel vlog</h3>
+                        <a href="">Patrick Arseneault</a>
+                        <span>8.5K Views • 1 year ago</span>
+                    </div>
+                </div>
+             </div>
+             <!-- Single video ends -->
+            <!-- Single video Starts -->
+             <div class="video">
+                <div class="video__thumbnail">
+                    <img src="https://i.ytimg.com/vi/ElrBbMdvo0k/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAGtp8UDxVTbmBWRus8QT-eYWPetw" alt="thumbnail">
+                </div>
+
+                <div class="video__details">
+                    <div class="author">
+                        <img src="https://yt3.ggpht.com/whxVkc_UUu47qNKYujNMSg2TVQeH_XIprkgH-5M4J9kLLKKXamEM2PEvSMpCkVqkAAE-Ayt5bw=s68-c-k-c0x00ffffff-no-rj" alt="profile-picture">
+                    </div>
+
+                    <div class="title">
+                        <h3>this is how i see NYC | a cinematic travel vlog</h3>
+                        <a href="">Patrick Arseneault</a>
+                        <span>8.5K Views • 1 year ago</span>
+                    </div>
+                </div>
+             </div>
+             <!-- Single video ends -->
+            <!-- Single video Starts -->
+             <div class="video">
+                <div class="video__thumbnail">
+                    <img src="https://i.ytimg.com/vi/ElrBbMdvo0k/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAGtp8UDxVTbmBWRus8QT-eYWPetw" alt="thumbnail">
+                </div>
+
+                <div class="video__details">
+                    <div class="author">
+                        <img src="https://yt3.ggpht.com/whxVkc_UUu47qNKYujNMSg2TVQeH_XIprkgH-5M4J9kLLKKXamEM2PEvSMpCkVqkAAE-Ayt5bw=s68-c-k-c0x00ffffff-no-rj" alt="profile-picture">
+                    </div>
+
+                    <div class="title">
+                        <h3>this is how i see NYC | a cinematic travel vlog</h3>
+                        <a href="">Patrick Arseneault</a>
+                        <span>8.5K Views • 1 year ago</span>
+                    </div>
+                </div>
+             </div>
+             <!-- Single video ends -->
+            <!-- Single video Starts -->
+             <div class="video">
+                <div class="video__thumbnail">
+                    <img src="https://i.ytimg.com/vi/ElrBbMdvo0k/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAGtp8UDxVTbmBWRus8QT-eYWPetw" alt="thumbnail">
+                </div>
+
+                <div class="video__details">
+                    <div class="author">
+                        <img src="https://yt3.ggpht.com/whxVkc_UUu47qNKYujNMSg2TVQeH_XIprkgH-5M4J9kLLKKXamEM2PEvSMpCkVqkAAE-Ayt5bw=s68-c-k-c0x00ffffff-no-rj" alt="profile-picture">
+                    </div>
+
+                    <div class="title">
+                        <h3>this is how i see NYC | a cinematic travel vlog</h3>
+                        <a href="">Patrick Arseneault</a>
+                        <span>8.5K Views • 1 year ago</span>
+                    </div>
+                </div>
+             </div>
+             <!-- Single video ends -->
+            <!-- Single video Starts -->
+             <div class="video">
+                <div class="video__thumbnail">
+                    <img src="https://i.ytimg.com/vi/ElrBbMdvo0k/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAGtp8UDxVTbmBWRus8QT-eYWPetw" alt="thumbnail">
+                </div>
+
+                <div class="video__details">
+                    <div class="author">
+                        <img src="https://yt3.ggpht.com/whxVkc_UUu47qNKYujNMSg2TVQeH_XIprkgH-5M4J9kLLKKXamEM2PEvSMpCkVqkAAE-Ayt5bw=s68-c-k-c0x00ffffff-no-rj" alt="profile-picture">
+                    </div>
+
+                    <div class="title">
+                        <h3>this is how i see NYC | a cinematic travel vlog</h3>
+                        <a href="">Patrick Arseneault</a>
+                        <span>8.5K Views • 1 year ago</span>
+                    </div>
+                </div>
+             </div>
+             <!-- Single video ends -->
+            <!-- Single video Starts -->
+             <div class="video">
+                <div class="video__thumbnail">
+                    <img src="https://i.ytimg.com/vi/ElrBbMdvo0k/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAGtp8UDxVTbmBWRus8QT-eYWPetw" alt="thumbnail">
+                </div>
+
+                <div class="video__details">
+                    <div class="author">
+                        <img src="https://yt3.ggpht.com/whxVkc_UUu47qNKYujNMSg2TVQeH_XIprkgH-5M4J9kLLKKXamEM2PEvSMpCkVqkAAE-Ayt5bw=s68-c-k-c0x00ffffff-no-rj" alt="profile-picture">
+                    </div>
+
+                    <div class="title">
+                        <h3>this is how i see NYC | a cinematic travel vlog</h3>
+                        <a href="">Patrick Arseneault</a>
+                        <span>8.5K Views • 1 year ago</span>
+                    </div>
+                </div>
+             </div>
+             <!-- Single video ends -->
+            <!-- Single video Starts -->
+             <div class="video">
+                <div class="video__thumbnail">
+                    <img src="https://i.ytimg.com/vi/ElrBbMdvo0k/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAGtp8UDxVTbmBWRus8QT-eYWPetw" alt="thumbnail">
+                </div>
+
+                <div class="video__details">
+                    <div class="author">
+                        <img src="https://yt3.ggpht.com/whxVkc_UUu47qNKYujNMSg2TVQeH_XIprkgH-5M4J9kLLKKXamEM2PEvSMpCkVqkAAE-Ayt5bw=s68-c-k-c0x00ffffff-no-rj" alt="profile-picture">
+                    </div>
+
+                    <div class="title">
+                        <h3>this is how i see NYC | a cinematic travel vlog</h3>
+                        <a href="">Patrick Arseneault</a>
+                        <span>8.5K Views • 1 year ago</span>
+                    </div>
+                </div>
+             </div>
+             <!-- Single video ends -->
+            <!-- Single video Starts -->
+             <div class="video">
+                <div class="video__thumbnail">
+                    <img src="https://i.ytimg.com/vi/ElrBbMdvo0k/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAGtp8UDxVTbmBWRus8QT-eYWPetw" alt="thumbnail">
+                </div>
+
+                <div class="video__details">
+                    <div class="author">
+                        <img src="https://yt3.ggpht.com/whxVkc_UUu47qNKYujNMSg2TVQeH_XIprkgH-5M4J9kLLKKXamEM2PEvSMpCkVqkAAE-Ayt5bw=s68-c-k-c0x00ffffff-no-rj" alt="profile-picture">
+                    </div>
+
+                    <div class="title">
+                        <h3>this is how i see NYC | a cinematic travel vlog</h3>
+                        <a href="">Patrick Arseneault</a>
+                        <span>8.5K Views • 1 year ago</span>
+                    </div>
+                </div>
+             </div>
+             <!-- Single video ends -->
+            <!-- Single video Starts -->
+             <div class="video">
+                <div class="video__thumbnail">
+                    <img src="https://i.ytimg.com/vi/ElrBbMdvo0k/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAGtp8UDxVTbmBWRus8QT-eYWPetw" alt="thumbnail">
+                </div>
+
+                <div class="video__details">
+                    <div class="author">
+                        <img src="https://yt3.ggpht.com/whxVkc_UUu47qNKYujNMSg2TVQeH_XIprkgH-5M4J9kLLKKXamEM2PEvSMpCkVqkAAE-Ayt5bw=s68-c-k-c0x00ffffff-no-rj" alt="profile-picture">
+                    </div>
+
+                    <div class="title">
+                        <h3>this is how i see NYC | a cinematic travel vlog</h3>
+                        <a href="">Patrick Arseneault</a>
+                        <span>8.5K Views • 1 year ago</span>
+                    </div>
+                </div>
+             </div>
+             <!-- Single video ends -->
+            <!-- Single video Starts -->
+             <div class="video">
+                <div class="video__thumbnail">
+                    <img src="https://i.ytimg.com/vi/ElrBbMdvo0k/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAGtp8UDxVTbmBWRus8QT-eYWPetw" alt="thumbnail">
+                </div>
+
+                <div class="video__details">
+                    <div class="author">
+                        <img src="https://yt3.ggpht.com/whxVkc_UUu47qNKYujNMSg2TVQeH_XIprkgH-5M4J9kLLKKXamEM2PEvSMpCkVqkAAE-Ayt5bw=s68-c-k-c0x00ffffff-no-rj" alt="profile-picture">
+                    </div>
+
+                    <div class="title">
+                        <h3>this is how i see NYC | a cinematic travel vlog</h3>
+                        <a href="">Patrick Arseneault</a>
+                        <span>8.5K Views • 1 year ago</span>
+                    </div>
+                </div>
+             </div>
+             <!-- Single video ends -->
+            <!-- Single video Starts -->
+             <div class="video">
+                <div class="video__thumbnail">
+                    <img src="https://i.ytimg.com/vi/ElrBbMdvo0k/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAGtp8UDxVTbmBWRus8QT-eYWPetw" alt="thumbnail">
+                </div>
+
+                <div class="video__details">
+                    <div class="author">
+                        <img src="https://yt3.ggpht.com/whxVkc_UUu47qNKYujNMSg2TVQeH_XIprkgH-5M4J9kLLKKXamEM2PEvSMpCkVqkAAE-Ayt5bw=s68-c-k-c0x00ffffff-no-rj" alt="profile-picture">
+                    </div>
+
+                    <div class="title">
+                        <h3>this is how i see NYC | a cinematic travel vlog</h3>
+                        <a href="">Patrick Arseneault</a>
+                        <span>8.5K Views • 1 year ago</span>
+                    </div>
+                </div>
+             </div>
+             <!-- Single video ends -->
+            <!-- Single video Starts -->
+             <div class="video">
+                <div class="video__thumbnail">
+                    <img src="https://i.ytimg.com/vi/ElrBbMdvo0k/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAGtp8UDxVTbmBWRus8QT-eYWPetw" alt="thumbnail">
+                </div>
+
+                <div class="video__details">
+                    <div class="author">
+                        <img src="https://yt3.ggpht.com/whxVkc_UUu47qNKYujNMSg2TVQeH_XIprkgH-5M4J9kLLKKXamEM2PEvSMpCkVqkAAE-Ayt5bw=s68-c-k-c0x00ffffff-no-rj" alt="profile-picture">
+                    </div>
+
+                    <div class="title">
+                        <h3>this is how i see NYC | a cinematic travel vlog</h3>
+                        <a href="">Patrick Arseneault</a>
+                        <span>8.5K Views • 1 year ago</span>
+                    </div>
+                </div>
+             </div>
+             <!-- Single video ends -->
+            <!-- Single video Starts -->
+             <div class="video">
+                <div class="video__thumbnail">
+                    <img src="https://i.ytimg.com/vi/ElrBbMdvo0k/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAGtp8UDxVTbmBWRus8QT-eYWPetw" alt="thumbnail">
+                </div>
+
+                <div class="video__details">
+                    <div class="author">
+                        <img src="https://yt3.ggpht.com/whxVkc_UUu47qNKYujNMSg2TVQeH_XIprkgH-5M4J9kLLKKXamEM2PEvSMpCkVqkAAE-Ayt5bw=s68-c-k-c0x00ffffff-no-rj" alt="profile-picture">
+                    </div>
+
+                    <div class="title">
+                        <h3>this is how i see NYC | a cinematic travel vlog</h3>
+                        <a href="">Patrick Arseneault</a>
+                        <span>8.5K Views • 1 year ago</span>
+                    </div>
+                </div>
+             </div>
+             <!-- Single video ends -->
+            <!-- Single video Starts -->
+             <div class="video">
+                <div class="video__thumbnail">
+                    <img src="https://i.ytimg.com/vi/ElrBbMdvo0k/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAGtp8UDxVTbmBWRus8QT-eYWPetw" alt="thumbnail">
+                </div>
+
+                <div class="video__details">
+                    <div class="author">
+                        <img src="https://yt3.ggpht.com/whxVkc_UUu47qNKYujNMSg2TVQeH_XIprkgH-5M4J9kLLKKXamEM2PEvSMpCkVqkAAE-Ayt5bw=s68-c-k-c0x00ffffff-no-rj" alt="profile-picture">
+                    </div>
+
+                    <div class="title">
+                        <h3>this is how i see NYC | a cinematic travel vlog</h3>
+                        <a href="">Patrick Arseneault</a>
+                        <span>8.5K Views • 1 year ago</span>
+                    </div>
+                </div>
+             </div>
+             <!-- Single video ends -->
+            <!-- Single video Starts -->
+             <div class="video">
+                <div class="video__thumbnail">
+                    <img src="https://i.ytimg.com/vi/ElrBbMdvo0k/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAGtp8UDxVTbmBWRus8QT-eYWPetw" alt="thumbnail">
+                </div>
+
+                <div class="video__details">
+                    <div class="author">
+                        <img src="https://yt3.ggpht.com/whxVkc_UUu47qNKYujNMSg2TVQeH_XIprkgH-5M4J9kLLKKXamEM2PEvSMpCkVqkAAE-Ayt5bw=s68-c-k-c0x00ffffff-no-rj" alt="profile-picture">
+                    </div>
+
+                    <div class="title">
+                        <h3>this is how i see NYC | a cinematic travel vlog</h3>
+                        <a href="">Patrick Arseneault</a>
+                        <span>8.5K Views • 1 year ago</span>
+                    </div>
+                </div>
+             </div>
+             <!-- Single video ends -->
+            <!-- Single video Starts -->
+             <div class="video">
+                <div class="video__thumbnail">
+                    <img src="https://i.ytimg.com/vi/ElrBbMdvo0k/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAGtp8UDxVTbmBWRus8QT-eYWPetw" alt="thumbnail">
+                </div>
+
+                <div class="video__details">
+                    <div class="author">
+                        <img src="https://yt3.ggpht.com/whxVkc_UUu47qNKYujNMSg2TVQeH_XIprkgH-5M4J9kLLKKXamEM2PEvSMpCkVqkAAE-Ayt5bw=s68-c-k-c0x00ffffff-no-rj" alt="profile-picture">
+                    </div>
+
+                    <div class="title">
+                        <h3>this is how i see NYC | a cinematic travel vlog</h3>
+                        <a href="">Patrick Arseneault</a>
+                        <span>8.5K Views • 1 year ago</span>
+                    </div>
+                </div>
+             </div>
+             <!-- Single video ends -->
+            <!-- Single video Starts -->
+             <div class="video">
+                <div class="video__thumbnail">
+                    <img src="https://i.ytimg.com/vi/ElrBbMdvo0k/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAGtp8UDxVTbmBWRus8QT-eYWPetw" alt="thumbnail">
+                </div>
+
+                <div class="video__details">
+                    <div class="author">
+                        <img src="https://yt3.ggpht.com/whxVkc_UUu47qNKYujNMSg2TVQeH_XIprkgH-5M4J9kLLKKXamEM2PEvSMpCkVqkAAE-Ayt5bw=s68-c-k-c0x00ffffff-no-rj" alt="profile-picture">
+                    </div>
+
+                    <div class="title">
+                        <h3>this is how i see NYC | a cinematic travel vlog</h3>
+                        <a href="">Patrick Arseneault</a>
+                        <span>8.5K Views • 1 year ago</span>
+                    </div>
+                </div>
+             </div>
+             <!-- Single video ends -->
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
